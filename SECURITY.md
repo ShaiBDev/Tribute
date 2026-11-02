@@ -6,7 +6,7 @@ This public portfolio is a local-only simulation. Its browser policy blocks netw
 
 Run `node check.cjs`, `node scripts/security-check.cjs`, and `node scripts/workflow-check.cjs`. The workflow checks execute real event handlers in a minimal DOM; they are not browser integration tests. Credential scanning is heuristic, and source pattern checks are regression checks, not a comprehensive security audit.
 
-GitHub Actions checks pull requests with read-only permissions. Only a successful main-branch check can proceed to deployment, in a separate job with Pages-specific permissions. Actions are pinned to full commit IDs. Only the four public files in `dist` are uploaded; documentation, tests, Git metadata, and environment files are excluded.
+GitHub Actions checks pull requests with read-only permissions. Only a successful main-branch check can proceed to deployment, in a separate job with Pages-specific permissions. Actions are pinned to full commit IDs. Only the six public files in `dist` are uploaded; documentation, tests, Git metadata, and environment files are excluded.
 
 ## Repository owner settings
 

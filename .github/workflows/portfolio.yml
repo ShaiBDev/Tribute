@@ -24,6 +24,7 @@ jobs:
       - run: node check.cjs
       - run: node scripts/security-check.cjs
       - run: node scripts/workflow-check.cjs
+      - run: node scripts/shai-check.cjs
       - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         with:

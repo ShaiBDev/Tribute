@@ -8,6 +8,10 @@ Open `dist/index.html`. No installation, API key, or account required.
 
 **Current capability:** deterministic analytics and keyword-based workflow simulation. No live AI model, external business integrations, or real actions. Do not present this as a production AI deployment.
 
+## Meet ShAI (current Shai)
+
+An interactive portfolio guide with a warm, witty voice, source notes, project links, question prompts, and typed questions. The public site uses labelled prewritten guide answers, not live model inference. An optional local live-AI server is implemented separately; credentials and public server hosting are not configured. See [SHAI.md](SHAI.md) for architecture and remaining steps.
+
 ## Demos
 
 - **Operations Command Center:** team/date filters, KPI calculations, request-volume charts, explicit risk rules, executive briefing, and CSV export.
